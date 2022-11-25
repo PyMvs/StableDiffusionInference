@@ -89,3 +89,8 @@ plt.show()
 ● Images in figure mode
 
 ![image](https://user-images.githubusercontent.com/23172965/204028172-0a98856b-2b13-41bc-808e-7ea7c7176d45.png)
+
+## Credits
+
+● [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
+● [Diffusers](https://github.com/huggingface/diffusers)
