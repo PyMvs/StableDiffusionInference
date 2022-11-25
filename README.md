@@ -1,14 +1,14 @@
 # StableDiffusionInference
-*To be able to run this previously you have to have your .ckpt model generated and fully functional with [Stable Diffusion](https://github.com/CompVis/stable-diffusion)*
+*To be able to run this previously you have to have your `.ckpt` model generated and fully functional with [Stable Diffusion](https://github.com/CompVis/stable-diffusion)*
 
-*StableDiffusionInference* is a reduced way to reproduce our previously saved models in [Hugging Face](https://huggingface.co/) without working on their online or local tool([NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)). In this way, we work locally thanks to download SD using [diffusers library](https://github.com/huggingface/diffusers/tree/main#new--stable-diffusion-is-now-fully-compatible-with-diffusers) without Google Drive or having any available space. 
+*StableDiffusionInference* is a reduced way to reproduce our previously saved models in [Hugging Face](https://huggingface.co/) without working on their online or local tool ([NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)). In this way, we work locally thanks to download SD using [diffusers library](https://github.com/huggingface/diffusers/tree/main#new--stable-diffusion-is-now-fully-compatible-with-diffusers) without Google Drive or having any available space. 
 
-In this example, I will use my dog (Urko) to show you all the process:
+In this example, I will use my dog *Urko* to show all the process:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A-ezqHDd37q3ga6Aqqn_mw9xFngAlDz4#scrollTo=1p7rlojPgOFW)
 
 ## Requirements
-You need it to update and install and run *Hugging Face*
+You need it to update, install and run *Hugging Face*
 
 ```python
 pip install diffusers==0.7.2
@@ -18,8 +18,8 @@ huggingface_hub==0.10.1
 
 ## Hugging Face
 
-1. Register in (https://huggingface.co/) and create a token with write access (https://huggingface.co/settings/tokens). 
-*For more information: https://huggingface.co/docs/hub/security-tokens*
+1. Register in [Hugging Face](https://huggingface.co/) and create a [token](https://huggingface.co/settings/tokens) with write access. 
+For more information: https://huggingface.co/docs/hub/security-tokens
 
 2. Create a Model in your profile using [Diffusers](https://huggingface.co/spaces/diffusers/convert-sd-ckpt). Convert your Stable Diffusion `.ckpt` file to Hugging Face Diffusers (Select *Host the model on the Hugging Face Hub* in 2nd step)
 
