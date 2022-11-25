@@ -93,4 +93,5 @@ plt.show()
 ## Credits
 
 ● [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
+
 ● [Diffusers](https://github.com/huggingface/diffusers)
